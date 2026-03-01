@@ -4,8 +4,10 @@
 
 :root {
     --primary-color: #F7FFF7;
+    --secondary-color: #292F36;
     --primary-background-color: #F7FFF7;
     --secondary-background-color: #292F36;
+    --border-color: #292F36;
 
     --green: #4ECDC4;
     --yellow: #FFE66D;
@@ -18,8 +20,11 @@
 :root[data-theme='dark'] {
 
     --primary-color: #292F36;
+    --secondary-color: #F7FFF7;
     --primary-background-color: #292F36;
     --secondary-background-color: #F7FFF7;
+    --border-color: #F7FFF7;
+
 
     --green: #4ECDC4;
     --yellow: #FFE66D;

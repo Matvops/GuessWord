@@ -3,8 +3,10 @@
 @import url('https://fonts.cdnfonts.com/css/bernoru');
 
 :root {
-    --gray: #292F36;
-    --white: #F7FFF7;
+    --primary-color: #F7FFF7;
+    --primary-background-color: #F7FFF7;
+    --secondary-background-color: #292F36;
+
     --green: #4ECDC4;
     --yellow: #FFE66D;
 
@@ -14,5 +16,16 @@
 }
 
 :root[data-theme='dark'] {
-  
+
+    --primary-color: #292F36;
+    --primary-background-color: #292F36;
+    --secondary-background-color: #F7FFF7;
+
+    --green: #4ECDC4;
+    --yellow: #FFE66D;
+
+    --primary-font-family: 'Montserrat', sans-serif;
+    --secondary-font-family: 'Crushed', sans-serif;
+    --logo-font-family: 'Bernoru', sans-serif;
+
 }

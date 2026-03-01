@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crushed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/bernoru');
+
+:root {
+    --gray: #292F36;
+    --white: #F7FFF7;
+    --green: #4ECDC4;
+    --yellow: #FFE66D;
+
+    --primary-font-family: 'Montserrat', sans-serif;
+    --secondary-font-family: 'Crushed', sans-serif;
+    --logo-font-family: 'Bernoru', sans-serif;
+}
+
+:root[data-theme='dark'] {
+  
+}

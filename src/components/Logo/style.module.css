@@ -1,0 +1,11 @@
+.logo {
+    font-family: var(--logo-font-family);
+    color: var(--green);
+    font-size: clamp(2.4rem, 25vw, 6rem);
+    text-align: center;
+    letter-spacing: .1rem;
+}
+
+.logo span {
+    color: var(--yellow);
+}

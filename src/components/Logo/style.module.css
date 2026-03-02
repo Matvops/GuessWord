@@ -4,6 +4,8 @@
     font-size: clamp(2.4rem, 25vw, 6rem);
     text-align: center;
     letter-spacing: .1rem;
+    user-select: none;
+    -moz-user-select: none;
 }
 
 .logo span {
